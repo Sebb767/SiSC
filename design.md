@@ -53,4 +53,8 @@ This includes user profiles, public keys (of users and servers) & configuration.
 
 ### File Metadata
 
-References on previous file version, public key used for encryption, hash and replication status.
+References on previous file version, public key used for encryption, hash and replication status. Stored at the files.
+
+### Actual Data
+
+Nothing unexpected. Data stored on the given file system. Maybe encrypted, may be encrypted twice (storage node encryption, user encryption).
