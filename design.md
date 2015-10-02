@@ -13,7 +13,7 @@ Yet none defined. It should however fullfill the following requirements:
 - It should be efficient for binary file transportation.
 - Encryption has to be possible.
 
-It should also be possible to access the master node (and UA nodes) by a different protocol (http probably) for user interaction (administration and file down-/uploading).
+It should also be possible to access the master node (and UA nodes) by a different protocol (http probably) for user interaction (administration and file down-/uploading). HTTP is still an option since this would avoid rolling a own protocol, but on the other hand the overhead is sick. Maybe a protocol agnostic framework design would be the right way.
 
 ## Services
 
